@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f0d8b3;
+  }
+
+  .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+  .main .navbar{
+    position: absolute;
+    height:auto;
+    width:100%;
+    background:rgba(0, 0, 0, 0.3);
+    margin:2% 0 0 0;
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .main .navbar ul {
+    position: relative;
+    height:100%;
+    width:50%;
+    font-family:'cinzel',sans-serif;
+    font-size: 25px;
+    font-weight:600;
+    right: -45%;
+  }
+
+  .main .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    padding:10px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .main .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #FFF0CE;
+    text-decoration: none;
+  }
+
+  .main .navbar ul li:hover{
+    background:rgba(0, 0, 0, 0.4);
+  }
+
+  .main .navbar ul li a {
+    text-decoration: none;
+    color: #FFF0CE;
+}
+
+.main .box {
+    background-color: #0174BE;
+    border: 3px solid #0C356A;
+    color: #FFF0CE;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box ol {
+    padding: 0;
+    margin: 0;
+}
+
+.main .box ol li {
+    border: 3px solid #0C356A;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+}
+
+.main .box ol :hover {
+  background:rgba(0, 0, 0, 0.4);
+}
+
+.main .box ol li :hover {
+  background:rgba(0, 0, 0, 0.0);
+}
+
+.main .box ol li a:link{
+    color: #FFF0CE;
+    text-decoration: none;
+}
+
+.main .box ol li a:visited{
+    color: #000438;
+    text-decoration: none;
+}
+
+ol li{
+  list-style-type: none;
+  text-align: center;
+}
